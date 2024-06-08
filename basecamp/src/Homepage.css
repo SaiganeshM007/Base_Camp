@@ -1,0 +1,54 @@
+/* src/components/HomePage.css */
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Set a default font */
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  width: 100%;
+  background-color: #010100; /* Light background color */
+}
+
+.home-page h2 {
+  margin-bottom: 20px;
+  font-size: 2rem; /* Larger font size */
+  color: #f7f4f3; /* Dark text color */
+}
+
+.button-container {
+  display: flex;
+  gap: 20px; /* Space between the buttons */
+}
+
+.home-page button {
+  width: 100px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #ca2e55; /* Button background color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.home-page button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}

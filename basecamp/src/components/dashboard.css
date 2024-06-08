@@ -1,0 +1,76 @@
+.dashboard-container {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #010100;
+  padding: 20px;
+}
+
+.dashboard-container h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #f7f4f3;
+}
+
+.dashboard-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 400px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+}
+
+.input-group input {
+  flex: 2;
+  padding: 10px;
+}
+
+.input-group button {
+  flex: 1;
+  padding: 8px 12px;
+}
+
+.dashboard-inputs input,
+.input-group input {
+  width: 100%;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.dashboard-inputs input:focus,
+.input-group input:focus {
+  border-color: #007bff;
+}
+
+.dashboard-inputs button,
+.input-group button {
+  font-size: 1rem;
+  color: white;
+  background-color: #ca2e55;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dashboard-inputs button:hover,
+.input-group button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  margin-top: 10px;
+  color: red;
+}
