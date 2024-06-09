@@ -1,6 +1,4 @@
-/* src/components/HomePage.css */
 
-/* CSS Reset */
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +11,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif; /* Set a default font */
+  font-family: Arial, sans-serif; 
 }
 
 .home-page {
@@ -23,18 +21,18 @@ body {
   justify-content: center;
   flex: 1;
   width: 100%;
-  background-color: #010100; /* Light background color */
+  background-color: #010100; 
 }
 
 .home-page h2 {
   margin-bottom: 20px;
-  font-size: 2rem; /* Larger font size */
-  color: #f7f4f3; /* Dark text color */
+  font-size: 2rem; 
+  color: #f7f4f3; 
 }
 
 .button-container {
   display: flex;
-  gap: 20px; /* Space between the buttons */
+  gap: 20px;
 }
 
 .home-page button {
@@ -42,7 +40,7 @@ body {
   padding: 10px 20px;
   font-size: 1rem;
   color: white;
-  background-color: #ca2e55; /* Button background color */
+  background-color: #ca2e55; 
   border: none;
   border-radius: 5px;
   cursor: pointer;
